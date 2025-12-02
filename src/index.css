@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  h1 { @apply text-heading1; }
+  h2 { @apply text-heading2; }
+  h3 { @apply text-heading3; }
+  h4 { @apply text-heading4; }
+  h5 { @apply text-heading5; }
+  h6 { @apply text-heading6; }
+} */
+
+:root {
+  /* Colors */
+  --color-primary: #0eb95e; /* example blue-700 */
+  --color-secondary: #59eba7; /* example gray-500 */
+  --color-tertiary: #4d6aec; /* example emerald-500 */
+  --color-accent: #f59e0b; /* example amber-500 */
+  --color-muted: #9ca3af; /* gray-400 */
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-border: #e5e7eb; /* gray-200 */
+  --color-danger: #ef4444; /* red-500 */
+  --color-success: #4230e7; /* green-500 */
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 1.875rem;
+  --font-size-3xl: 2.25rem;
+
+  --font-size-heading1: 2.25rem;
+  --font-size-heading2: 1.875rem;
+  --font-size-heading3: 1.5rem;
+  --font-size-heading4: 1.25rem;
+  --font-size-heading5: 1.125rem;
+  --font-size-heading6: 1rem;
+
+  /* Line Heights */
+  --line-height-xs: 1.2;
+  --line-height-sm: 1.5;
+  --line-height-base: 1.5;
+  --line-height-heading1: 2.5rem;
+  --line-height-heading2: 2.25rem;
+  --line-height-heading3: 2rem;
+  --line-height-heading4: 1.75rem;
+  --line-height-heading5: 1.5rem;
+  --line-height-heading6: 1.5rem;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+
+  /* Radius */
+  --radius-default: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 2rem;
+
+  /* Box Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-default: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Fonts */
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+  --font-family-mono: 'Fira Code', monospace;
+}
+
+.dark {
+  --color-background: #0f327e;
+  --color-foreground: #ffffff;
+  --color-border: #374151; /* dark gray-700 */
+  --color-muted: #6b7280; /* gray-500 */
+  --color-primary: #edf0f5; /* blue-500 */
+  --color-secondary: #a3a3a3; /* gray-400 */
+  --color-tertiary: #34d399; /* emerald-400 */
+  --color-accent: #fbbf24; /* amber-400 */
+  --color-danger: #f87171; /* red-400 */
+  --color-success: #4ade80; /* green-400 */
+}
+
+@layer base {
+  h1 { @apply text-3xl font-bold leading-tight; }
+  h2 { @apply text-2xl font-bold leading-snug; }
+  h3 { @apply text-xl font-semibold; }
+  h4 { @apply text-lg font-semibold; }
+  h5 { @apply text-base font-medium; }
+  h6 { @apply text-sm font-medium; }
+}

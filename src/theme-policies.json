@@ -1,0 +1,11 @@
+[
+    {
+      "policy": "set dark theme",
+      "rule": "user.department == 'Finance' && user.region == 'EU' && user.clearanceLevel == 2"
+    },
+    {
+      "policy": "set light theme",
+      "rule": "user.department == 'HR' && user.region == 'IN' && user.clearanceLevel == 3"
+    }
+  ]
+  

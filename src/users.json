@@ -1,0 +1,72 @@
+[
+    {
+      "id": "u001",
+      "username": "john",
+      "password": "pass123",
+      "attributes": {
+        "role": "analyst",
+        "department": "Finance",
+        "region": "EU",
+        "clearanceLevel": 2,
+        "theme": {
+            "--color-background": "#0a0f1f",
+            "--color-foreground": "#f8f8ff",
+            "--color-border": "#1e1e2e",
+            "--color-muted": "#5c5f66",
+            "--color-primary": "#8be9fd",
+            "--color-secondary": "#bd93f9",
+            "--color-tertiary": "#50fa7b",
+            "--color-accent": "#ff79c6",
+            "--color-danger": "#ff5555",
+            "--color-success": "#44dd88"
+        }
+      }
+    },
+    {
+      "id": "u002",
+      "username": "susan",
+      "password": "hrpass",
+      "attributes": {
+        "role": "manager",
+        "department": "HR",
+        "region": "IN",
+        "clearanceLevel": 3,
+        "theme": {
+            "--color-background": "#ddd6fe",
+            "--color-foreground": "#1e293b",
+            "--color-border": "#e2bfb3",
+            "--color-muted": "#9ca3af",
+            "--color-primary": "#ddd6fe",
+            "--color-secondary": "#fbbf24",
+            "--color-tertiary": "#10b981",
+            "--color-accent": "#6366f1",
+            "--color-danger": "#dc2626",
+            "--color-success": "#16a34a"
+          }
+      }
+    },
+    {
+      "id": "u003",
+      "username": "sam",
+      "password": "hrpass",
+      "attributes": {
+        "role": "manager",
+        "department": "HR",
+        "region": "IN",
+        "clearanceLevel": 3,
+        "theme": {
+          "--color-background": "#1e1f25",
+          "--color-foreground": "#f1f5f9",
+          "--color-border": "#3b3f4a",
+          "--color-muted": "#9ca3af",
+          "--color-primary": "#38bdf8",
+          "--color-secondary": "#64748b",
+          "--color-tertiary": "#86efac",
+          "--color-accent": "#f472b6",
+          "--color-danger": "#ef4444",
+          "--color-success": "#22c55e"
+        }
+      }
+    }
+  ]
+  
